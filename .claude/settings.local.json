@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(head -50)",
+      "PowerShell([System.IO.Directory]::GetFileSystemEntries\\(\"c:\\\\Users\\\\jufra\\\\Desktop\\\\projects\\\\secret-dictator\\\\frontend\"\\) | Where-Object { -not $_.Contains\\(\"node_modules\"\\) } | Select-Object -First 20)"
+    ]
+  }
+}
